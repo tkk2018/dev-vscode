@@ -1,0 +1,14 @@
+{
+  "CMAKE": "/path/to/cmake/bin/cmake",
+  "GDB": "/path/to/toolchain/compiler/bin/arm-linux-gnueabihf-gdb",
+  "GDBSERVER": "/path/to/toolchain/compiler/bin/gdbserver",
+  "APP_NAME": "MyApp",
+  "OUT_DIR": "BUILD",
+
+  "SSH_HOST": "192.168.0.100",
+  "SSH_USER": "username",
+  "SSH_PWD": "password",
+
+  "REMOTE_APP_DIR": "\\~/path/to/dir",
+  "REMOTE_GDBSERVER": "\\~/path/to/gdbserver"
+}
